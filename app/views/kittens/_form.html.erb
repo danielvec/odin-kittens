@@ -1,0 +1,16 @@
+<div class="form">
+  <%= form_with model: @kitten do |form| %>
+    <%= form.label :name %><br>
+    <%= form.text_field :name, required: true %><br>
+
+    <%= form.label :age %><br>
+    <%= select_tag(:age, options_for_select(0..40), required: true) %><br>
+
+    <%= form.label :cuteness %><br>
+    <%= select_tag(:cuteness, options_for_select(1..10), required: true) %><br>
+
+    <%= form.label :softness %><br>
+    <%= select_tag(:date, options_for_select(1..10), required: true) %><br>
+    <%= form.submit "Submit", :class => "button" %>
+  <% end %>
+</div>
