@@ -12,7 +12,7 @@ class KittensController < ApplicationController
   end
 
   def create
-    @kitten = Kitten.new(article_params)
+    @kitten = Kitten.new(kitten_params)
 
     if @kitten.save
       redirect_to @kitten
