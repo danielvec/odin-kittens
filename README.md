@@ -1,24 +1,7 @@
-# README
+# Simple Kittens API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is my implementation of the Simple Kittens API from the [The Odin Project](https://www.theodinproject.com/lessons/ruby-on-rails-kittens-api#assignment-2).
 
-Things you may want to cover:
+## Project Requirements
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is a small project to set up a rails application to be a data producing API (render data  instead of HTML).
