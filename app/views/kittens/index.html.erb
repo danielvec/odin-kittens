@@ -1,8 +1,9 @@
+<%= link_to "New Kitten", new_kitten_path %>
 <% @kittens.each do |kitten| %>
   <div class="kitten">
     <li>
       <div class="name">
-        <%= kitten.name %>
+        <%= link_to kitten.name, kitten_path(kitten) %>
       </div>
       <%= link_to "Delete", kitten_path(kitten), data: {
               turbo_method: :delete,
